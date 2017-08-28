@@ -1,6 +1,6 @@
 import os
 from flask_restful import Resource
-from flask import Flask, url_for, json, request
+from flask import json, request
 from wand.image import Image
 import zipfile
 import StringIO
@@ -53,33 +53,35 @@ class ImageiOS():
         return int(ra), int(rb)
 
 
-class HelloWorld(Resource):
+class ImageIosiphier(Resource):
 
     def size_list(self):
-        SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-        json_url = os.path.join(SITE_ROOT, "resources/", "Contents.json")
+        json_url = self.get_scheme()
         data = json.load(open(json_url))
         res =  map(lambda x:ImageiOS(x), data["images"])
         return res
 
-    def resize_image(self, image):
+    def get_scheme(self):
+        SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+        json_url = os.path.join(SITE_ROOT, "resources/", "Contents.json")
+        return json_url
+
+    def resize_image(self, image, name_to_save):
         imz = InMemoryZip()
         for item in self.size_list():
             with image.clone() as i:
                 i.resize(item.real_size()[0], item.real_size()[1])
-                #i.save(filename=item.filename)
-                imz.append("AppIcon.appiconset/"+item.filename, i.make_blob("png"))
-                #myzip.write(item.filename)
-        #imz.writetofile("test.zip")
-        SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-        json_url = os.path.join(SITE_ROOT, "resources/", "Contents.json")
+                imz.append(name_to_save+"/"+item.filename, i.make_blob("png"))
+        json_url = self.get_scheme()
         data = open(json_url).read()
-        imz.append("AppIcon.appiconset/Contents.json", data)
+        imz.append(name_to_save + "/Contents.json", data)
         return imz
 
-    def post(self):
+
+    def do_stuff(self):
+        resp_name = request.args.get("name")
         img = Image(blob=request.files["image"].stream)
-        res = self.resize_image(img)
+        res = self.resize_image(img, resp_name)
 
         res.in_memory_zip.seek(0)
         return  send_file(res.in_memory_zip, mimetype=' application/octet-stream')

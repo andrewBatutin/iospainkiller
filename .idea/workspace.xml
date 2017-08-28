@@ -3,28 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8f2f1cb-559c-48bc-8353-6c15a465b9f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr.zip" afterPath="$PROJECT_DIR$/rrr.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-20x20@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-20x20@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-20x20@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-29x29@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-29x29@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-29x29@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-40x40@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-40x40@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-40x40@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-57x57@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-57x57@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-57x57@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-57x57@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-60x60@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-60x60@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-60x60@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-72x72@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-72x72@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-72x72@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-72x72@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-76x76@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-76x76@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-76x76@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-83.5x83.5@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-83.5x83.5@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-Small-50x50@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-Small-50x50@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-Small-50x50@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-Small-50x50@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_rest_service/__init__.py" afterPath="$PROJECT_DIR$/flask_rest_service/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_rest_service/image_processor.py" afterPath="$PROJECT_DIR$/flask_rest_service/image_processor.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_rest_service/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -48,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_processor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image_processor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flask_rest_service/image_processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="1155">
+              <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -153,9 +132,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/runserver.py" />
-        <option value="$PROJECT_DIR$/flask_rest_service/__init__.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/resources/Contents.json" />
+        <option value="$PROJECT_DIR$/flask_rest_service/__init__.py" />
         <option value="$PROJECT_DIR$/flask_rest_service/image_processor.py" />
       </list>
     </option>
@@ -303,7 +282,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -337,16 +316,6 @@
         <state relative-caret-position="90">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_rest_service/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,10 +358,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_rest_service/image_processor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        <state relative-caret-position="1155">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_rest_service/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
