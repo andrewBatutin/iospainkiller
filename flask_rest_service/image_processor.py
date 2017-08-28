@@ -68,10 +68,14 @@ class HelloWorld(Resource):
             with image.clone() as i:
                 i.resize(item.real_size()[0], item.real_size()[1])
                 #i.save(filename=item.filename)
-                imz.append(item.filename, i.make_blob("png"))
+                imz.append("AppIcon.appiconset/"+item.filename, i.make_blob("png"))
                 #myzip.write(item.filename)
         #imz.writetofile("test.zip")
-        return  imz
+        SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+        json_url = os.path.join(SITE_ROOT, "resources/", "Contents.json")
+        data = open(json_url).read()
+        imz.append("AppIcon.appiconset/Contents.json", data)
+        return imz
 
     def post(self):
         img = Image(blob=request.files["image"].stream)

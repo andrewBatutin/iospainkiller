@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f2f1cb-559c-48bc-8353-6c15a465b9f3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr.zip" afterPath="$PROJECT_DIR$/rrr.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-20x20@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-20x20@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-20x20@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-29x29@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-29x29@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-29x29@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-40x40@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-40x40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-40x40@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-57x57@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-57x57@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-57x57@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-57x57@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-60x60@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-60x60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-60x60@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-72x72@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-72x72@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-72x72@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-72x72@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-76x76@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-76x76@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@3x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-76x76@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-App-83.5x83.5@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-App-83.5x83.5@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-Small-50x50@1x.png" afterPath="$PROJECT_DIR$/rrr/Icon-Small-50x50@1x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rrr/Icon-Small-50x50@2x.png" afterPath="$PROJECT_DIR$/rrr/Icon-Small-50x50@2x.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_rest_service/image_processor.py" afterPath="$PROJECT_DIR$/flask_rest_service/image_processor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +51,31 @@
       <file leaf-file-name="image_processor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_rest_service/image_processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+            <state relative-caret-position="256">
+              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipfile.py" pinned="false" current-in-tab="false">
+        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/zipfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-268">
+              <caret line="1205" column="10" lean-forward="false" selection-start-line="1205" selection-start-column="10" selection-end-line="1205" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/wand/image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="3085" column="8" lean-forward="false" selection-start-line="3085" selection-start-column="8" selection-end-line="3085" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,16 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runserver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runserver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -129,10 +161,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1895" />
-    <option name="y" value="139" />
-    <option name="width" value="1921" />
-    <option name="height" value="1007" />
+    <option name="x" value="1920" />
+    <option name="y" value="181" />
+    <option name="width" value="1920" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -237,6 +269,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="139" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -247,7 +280,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -270,7 +303,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -297,11 +330,6 @@
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_rest_service/mona-lisa.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_rest_service/resources/Contents.json">
@@ -338,10 +366,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/wand/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="3085" column="8" lean-forward="false" selection-start-line="3085" selection-start-column="8" selection-end-line="3085" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_rest_service/mona-lisa.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="1205" column="10" lean-forward="false" selection-start-line="1205" selection-start-column="10" selection-end-line="1205" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flask_rest_service/image_processor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        <state relative-caret-position="256">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
