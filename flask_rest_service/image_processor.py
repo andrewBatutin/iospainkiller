@@ -55,33 +55,33 @@ class ImageiOS():
 
 class ImageIosiphier(Resource):
 
-    def size_list(self):
-        json_url = self.get_scheme()
+    def size_list(self, for_scheme):
+        json_url = self.get_scheme( for_scheme)
         data = json.load(open(json_url))
         res =  map(lambda x:ImageiOS(x), data["images"])
         return res
 
-    def get_scheme(self):
+    def get_scheme(self, for_scheme):
         SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-        json_url = os.path.join(SITE_ROOT, "resources/", "Contents.json")
+        json_url = os.path.join(SITE_ROOT, "resources/", for_scheme)
         return json_url
 
-    def resize_image(self, image, name_to_save):
+    def resize_image(self, image, name_to_save, for_scheme):
         imz = InMemoryZip()
-        for item in self.size_list():
+        for item in self.size_list(for_scheme):
             with image.clone() as i:
                 i.resize(item.real_size()[0], item.real_size()[1])
                 imz.append(name_to_save+"/"+item.filename, i.make_blob("png"))
-        json_url = self.get_scheme()
+        json_url = self.get_scheme(for_scheme)
         data = open(json_url).read()
         imz.append(name_to_save + "/Contents.json", data)
         return imz
 
 
-    def do_stuff(self):
+    def do_stuff(self, for_scheme):
         resp_name = request.args.get("name")
         img = Image(blob=request.files["image"].stream)
-        res = self.resize_image(img, resp_name)
+        res = self.resize_image(img, resp_name, for_scheme)
 
         res.in_memory_zip.seek(0)
         return  send_file(res.in_memory_zip, mimetype=' application/octet-stream')

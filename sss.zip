@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>KeyError: 'size' // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css" type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does not by
+         accident trigger a request to /favicon.ico which might change the application
+         state. -->
+    <link rel="shortcut icon" href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script type="text/javascript" src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
+    <script type="text/javascript" src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 4384257296,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          SECRET = "PllLUVShGlTimOmCq4CO";
+    </script>
+  </head>
+  <body>
+    <div class="debugger">
+<h1>KeyError</h1>
+<div class="detail">
+  <p class="errormsg">KeyError: 'size'</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  
+  <ul><li><div class="frame" id="frame-4384257168">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1997</em>,
+      in <code class="function">__call__</code></h4>
+  <pre>return self.wsgi_app(environ, start_response)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257424">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1985</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <pre>response = self.handle_exception(e)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257488">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask_restful/__init__.py"</cite>,
+      line <em class="line">258</em>,
+      in <code class="function">error_router</code></h4>
+  <pre>return original_handler(e)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257552">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1540</em>,
+      in <code class="function">handle_exception</code></h4>
+  <pre>reraise(exc_type, exc_value, tb)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257616">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1982</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <pre>response = self.full_dispatch_request()</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257680">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1614</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <pre>rv = self.handle_user_exception(e)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257744">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask_restful/__init__.py"</cite>,
+      line <em class="line">258</em>,
+      in <code class="function">error_router</code></h4>
+  <pre>return original_handler(e)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257808">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1517</em>,
+      in <code class="function">handle_user_exception</code></h4>
+  <pre>reraise(exc_type, exc_value, tb)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257872">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1612</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <pre>rv = self.dispatch_request()</pre>
+</div>
+
+<li><div class="frame" id="frame-4384257936">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py"</cite>,
+      line <em class="line">1598</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <pre>return self.view_functions[rule.endpoint](**req.view_args)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384258000">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/flask_rest_service/__init__.py"</cite>,
+      line <em class="line">21</em>,
+      in <code class="function">process_splash</code></h4>
+  <pre>return imp.do_stuff(&quot;SplashContents.json&quot;)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384258064">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py"</cite>,
+      line <em class="line">84</em>,
+      in <code class="function">do_stuff</code></h4>
+  <pre>res = self.resize_image(img, resp_name, for_scheme)</pre>
+</div>
+
+<li><div class="frame" id="frame-4384258128">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py"</cite>,
+      line <em class="line">71</em>,
+      in <code class="function">resize_image</code></h4>
+  <pre>for item in self.size_list(for_scheme):</pre>
+</div>
+
+<li><div class="frame" id="frame-4384258192">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py"</cite>,
+      line <em class="line">61</em>,
+      in <code class="function">size_list</code></h4>
+  <pre>res =  map(lambda x:ImageiOS(x), data[&quot;images&quot;])</pre>
+</div>
+
+<li><div class="frame" id="frame-4384258256">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py"</cite>,
+      line <em class="line">61</em>,
+      in <code class="function">&lt;lambda&gt;</code></h4>
+  <pre>res =  map(lambda x:ImageiOS(x), data[&quot;images&quot;])</pre>
+</div>
+
+<li><div class="frame" id="frame-4384258320">
+  <h4>File <cite class="filename">"/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py"</cite>,
+      line <em class="line">44</em>,
+      in <code class="function">__init__</code></h4>
+  <pre>self.size = tuple(dict[&quot;size&quot;].split(&quot;x&quot;))</pre>
+</div>
+</ul>
+  <blockquote>KeyError: 'size'</blockquote>
+</div>
+
+<div class="plain">
+  <form action="/?__debugger__=yes&amp;cmd=paste" method="post">
+    <p>
+      <input type="hidden" name="language" value="pytb">
+      This is the Copy/Paste friendly version of the traceback.  <span
+      class="pastemessage">You can also paste this traceback into
+      a <a href="https://gist.github.com/">gist</a>:
+      <input type="submit" value="create paste"></span>
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask_restful/__init__.py", line 258, in error_router
+    return original_handler(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask_restful/__init__.py", line 258, in error_router
+    return original_handler(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/__init__.py", line 21, in process_splash
+    return imp.do_stuff("SplashContents.json")
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 84, in do_stuff
+    res = self.resize_image(img, resp_name, for_scheme)
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 71, in resize_image
+    for item in self.size_list(for_scheme):
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 61, in size_list
+    res =  map(lambda x:ImageiOS(x), data["images"])
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 61, in <lambda>
+    res =  map(lambda x:ImageiOS(x), data["images"])
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 44, in __init__
+    self.size = tuple(dict["size"].split("x"))
+KeyError: 'size'</textarea>
+  </form>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask_restful/__init__.py", line 258, in error_router
+    return original_handler(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask_restful/__init__.py", line 258, in error_router
+    return original_handler(e)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/abatutin/Documents/iospainkiller/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/__init__.py", line 21, in process_splash
+    return imp.do_stuff("SplashContents.json")
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 84, in do_stuff
+    res = self.resize_image(img, resp_name, for_scheme)
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 71, in resize_image
+    for item in self.size_list(for_scheme):
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 61, in size_list
+    res =  map(lambda x:ImageiOS(x), data["images"])
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 61, in <lambda>
+    res =  map(lambda x:ImageiOS(x), data["images"])
+  File "/Users/abatutin/Documents/iospainkiller/flask_rest_service/image_processor.py", line 44, in __init__
+    self.size = tuple(dict["size"].split("x"))
+KeyError: 'size'
+
+-->

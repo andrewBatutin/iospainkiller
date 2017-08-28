@@ -9,7 +9,13 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
-@app.route('/', methods=['POST'])
-def process_image():
+@app.route('/icon', methods=['POST'])
+def process_icon():
     imp = ImageIosiphier()
-    return imp.do_stuff()
+    return imp.do_stuff("IconsContents.json")
+
+#LaunchImage
+@app.route('/splash', methods=['POST'])
+def process_splash():
+    imp = ImageIosiphier()
+    return imp.do_stuff("SplashContents.json")
