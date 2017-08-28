@@ -5,3 +5,4 @@ aniso8601==0.82
 gunicorn==19.0.0
 six==1.7.2
 bson=0.4.6
+wand=0.4.4
