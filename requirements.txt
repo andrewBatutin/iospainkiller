@@ -1,5 +1,7 @@
 Flask==0.12.2
-Flask-RESTful==0.2.12
+Flask-restful==0.2.12
 Werkzeug==0.9.6
 aniso8601==0.82
 gunicorn==19.0.0
+six==1.7.2
+bson=0.4.6
