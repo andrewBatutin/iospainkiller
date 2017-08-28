@@ -2,33 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f2f1cb-559c-48bc-8353-6c15a465b9f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-20x20@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-20x20@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-20x20@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-29x29@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-29x29@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-29x29@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-40x40@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-40x40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-40x40@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-57x57@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-57x57@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-60x60@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-60x60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-60x60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-72x72@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-72x72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-76x76@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-76x76@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-76x76@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-App-83.5x83.5@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-Small-50x50@1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.set/Icon-Small-50x50@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_rest_service/resources/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_rest_service/__init__.py" afterPath="$PROJECT_DIR$/flask_rest_service/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_rest_service/image_processor.py" afterPath="$PROJECT_DIR$/flask_rest_service/image_processor.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-20x20@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-20x20@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-20x20@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-29x29@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-29x29@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-29x29@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-40x40@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-40x40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-40x40@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-57x57@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-57x57@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-60x60@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-60x60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-60x60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-72x72@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-72x72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-76x76@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-76x76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-76x76@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-App-83.5x83.5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-Small-50x50@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icon-Small-50x50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_rest_service/mona-lisa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mona-lisa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-20x20@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-29x29@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-40x40@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-57x57@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-57x57@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-60x60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-72x72@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-72x72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-76x76@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-App-83.5x83.5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-Small-50x50@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rrr/Icon-Small-50x50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-20x20@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-20x20@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-20x20@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-29x29@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-29x29@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-29x29@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-40x40@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-40x40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-40x40@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-57x57@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-57x57@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-60x60@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-60x60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-60x60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-72x72@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-72x72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-76x76@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-76x76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-76x76@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-App-83.5x83.5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-Small-50x50@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spam/Icon-Small-50x50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sss.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-20x20@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-20x20@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-20x20@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-29x29@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-29x29@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-29x29@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-40x40@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-40x40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-40x40@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-57x57@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-57x57@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-60x60@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-60x60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-60x60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-72x72@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-72x72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-76x76@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-76x76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-76x76@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-App-83.5x83.5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-Small-50x50@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Icon-Small-50x50@2x.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +132,8 @@
       <file leaf-file-name="SplashContents.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_rest_service/resources/SplashContents.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -130,13 +208,6 @@
               <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mona-lisa.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_rest_service/mona-lisa.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -272,7 +343,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="139" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -284,7 +354,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -402,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_rest_service/resources/SplashContents.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding />
         </state>
       </provider>
